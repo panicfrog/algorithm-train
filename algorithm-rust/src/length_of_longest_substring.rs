@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 pub fn length_of_longest_substring(s: String) -> i32 {
     let mut chars: Vec<char> = Vec::new();
     let mut lenth = 0;
